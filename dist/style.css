@@ -1,0 +1,135 @@
+
+
+body {
+    background-color: rgb(40, 218, 108);
+   
+  }
+
+
+
+.jumbotron {
+    position: relative;
+
+       top: 5px;
+       background-color: transparent;
+       width: 400px;
+       margin: auto;
+       height: auto;
+       padding: 10px;
+
+
+      animation-duration: 20s;
+      animation-timing-function: ease-out;
+      animation-iteration-count: infinite;
+
+      color: blue;
+      background-color: orange;
+     border: solid; border-radius: 50px; border: 20px;
+
+
+     
+
+   font-style:underline;
+   text-shadow: 10px 10px 24px yellow;
+   text-decoration-style: solid;
+   font-family: serif;
+   font-weight: 900px;
+
+       }
+.jumbotron {
+  animation-name: cal-1;
+}      
+
+
+@keyframes cal-1 {
+  0%, 15% { left: -30%; opacity: 0; }
+  15%, 30% { left: -25%; opacity: 1; }
+  30%, 45% { left: -10%; opacity: 1; }
+  45%, 60% { left: 30%; opacity: 0; }
+  60%, 70% { left: -10%; opacity:0.5; }
+70%,85% { left: 20; opacity: 1; }
+85%, 100% { left: 40; opacity: 0; }
+}
+
+
+
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+  }
+  
+  .navbar {
+    position: absolute;
+    display:inline;
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 5px 80px;
+    margin-left: 620px;  
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 25px;
+  
+  }
+  
+  .navbar a:hover{
+    background-color:transparent;
+    color: white;
+  }
+  .navbar a.active{
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .about {
+         position: absolute;
+        border: solid; border-radius: 100; border: 15px;
+        padding: 40px;
+     font-weight: 900;
+      width: 200px;
+      height: 50px;
+    right: 20px;
+    margin-top: 300px;
+    margin-bottom:100px;
+  
+  }
+  .home {
+    background-color: #8BAF50;
+    text-color: yellow;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 120px;
+    
+    
+    font-size: 40px;
+  }
+
+
+  
+  .search{
+
+    position: absolute;
+    background-color: rgb(21, 231, 231);
+    width: 20%;
+    height: 8%;
+    margin-top: 3%;
+    margin-left: 0.5%;
+    font-size: 200%;
+
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+#input {
+    position: relative;
+       width: 70%;
+       height: 20%;
+       margin-top: 5%;
+       padding: 10px;
+       font-size: 16px;
+       font-weight: bold;
+}
